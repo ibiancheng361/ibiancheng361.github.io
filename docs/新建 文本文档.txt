@@ -1,0 +1,14 @@
+
+第一步,检测node版本信息,
+
+需要至少node version 20及更新版本
+
+
+升级npm版本
+npm install -g npm@11.6.1 
+ 
+
+npx create-docusaurus@latest github.io classic
+
+
+
