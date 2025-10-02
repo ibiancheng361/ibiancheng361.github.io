@@ -20,17 +20,17 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ibiancheng361.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
-  onBrokenLinks: 'throw',
+  organizationName: 'ibiancheng361', // Usually your GitHub org/user name.
+  projectName: 'ibiancheng361.github.io', // Usually your repo name.
+  deploymentBranch:'gh-pages',
+ onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -100,12 +100,6 @@ const config = {
             sidebarId: 'sheetmetal',
             position: 'left',
             label: '钣金设计',
-          },
-		        {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
