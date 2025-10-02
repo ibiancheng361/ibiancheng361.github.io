@@ -81,7 +81,12 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
+    },
+      docs: {
+      sidebar: {
+        hideable: true,
       },
+    },
       navbar: {
         title: 'ibiancheng361',
         logo: {
@@ -89,7 +94,19 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
+         {
+            type: 'docSidebar',
+            sidebarId: 'ecmascript',
+            position: 'left',
+            label: 'ECMAScript',
+         },
+         {
+            type: 'docSidebar',
+            sidebarId: 'golang',
+            position: 'left',
+            label: 'Golang',
+         },
+         {
             type: 'docSidebar',
             sidebarId: 'books',
             position: 'left',
@@ -102,7 +119,12 @@ const config = {
             label: '钣金设计',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
+         {
+            to: 'about',
+            label: '关于',
+            position: 'right',
+          }, 
+         {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
